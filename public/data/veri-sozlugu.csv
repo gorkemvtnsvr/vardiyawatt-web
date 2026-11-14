@@ -1,0 +1,19 @@
+﻿sutun,tip_birim,anlam,kullanim
+date,tarih/saat,Kaynağın dönem zaman damgası,Gece yarısı düzeltilerek indeks
+Usage_kWh,"sayısal, kWh",15 dakikalık dönemin tüketimi,Hedef ve gecikmelerin kaynağı
+Lagging_Current_Reactive.Power_kVarh,"sayısal, kVarh",Endüktif reaktif enerji,Kullanılmadı
+Leading_Current_Reactive_Power_kVarh,"sayısal, kVarh",Kapasitif reaktif enerji,Kullanılmadı
+CO2(tCO2),sayısal,"CO2 göstergesi, kaynak birim açıklaması tutarsız",Kullanılmadı
+Lagging_Current_Power_Factor,"sayısal, yüzde",Endüktif güç faktörü,Kullanılmadı
+Leading_Current_Power_Factor,"sayısal, yüzde",Kapasitif güç faktörü,Kullanılmadı
+NSM,"sayısal, saniye",Gece yarısından itibaren saniye,Zaman düzeltmesi kontrolü
+WeekStatus,kategorik,Hafta içi/sonu,Zamandan yeniden hesaplandı
+Day_of_week,kategorik,Haftanın günü,Zamandan yeniden hesaplandı
+Load_Type,kategorik,Light_Load/Medium_Load/Maximum_Load,"Yalnız keşif, model girdisi değil"
+lag_1,"sayısal, kWh",15 dakika önceki tüketim,Model girdisi
+lag_4,"sayısal, kWh",1 saat önceki tüketim,Model girdisi
+lag_96,"sayısal, kWh",24 saat önceki tüketim,Model girdisi
+hour_sin,sayısal,sin(2*pi*saat/24),Model girdisi
+hour_cos,sayısal,cos(2*pi*saat/24),Model girdisi
+weekend,"sayısal, 0/1",Cumartesi/pazar göstergesi,Model girdisi
+target_kwh,"sayısal, kWh",Tahmin edilen dönem tüketimi,Model hedefi
