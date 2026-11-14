@@ -1,0 +1,51 @@
+{
+  "name": "LinearRegression",
+  "features": [
+    "lag_1",
+    "lag_4",
+    "lag_96",
+    "hour_sin",
+    "hour_cos",
+    "weekend"
+  ],
+  "intercept": 3.769376425450691,
+  "coefficients": [
+    0.8267294077430385,
+    -0.026699058963524258,
+    0.10700038886973989,
+    -0.41858018859056306,
+    -2.6850376419917015,
+    -4.078013106810946
+  ],
+  "trainingRange": {
+    "lag_1": {
+      "min": 2.45,
+      "max": 153.14
+    },
+    "lag_4": {
+      "min": 2.45,
+      "max": 153.14
+    },
+    "lag_96": {
+      "min": 2.45,
+      "max": 153.14
+    }
+  },
+  "metrics": {
+    "Doğrusal regresyon": {
+      "MAE_kWh": 6.603772276401871,
+      "RMSE_kWh": 11.610036103032451,
+      "R2": 0.8632332148689873
+    },
+    "Son ölçüm referansı": {
+      "MAE_kWh": 5.447448848190013,
+      "RMSE_kWh": 12.331444700511543,
+      "R2": 0.8457087074282005
+    }
+  },
+  "trainRows": 27955,
+  "testRows": 6989,
+  "rawRows": 35040,
+  "sourceDoi": "10.24432/C52G8C",
+  "sourceSha256": "9b1cee6f9cb9cd9df2b95814ca90a9a2ff15b7f5f1fba0fae3c643e82072eacc"
+}
