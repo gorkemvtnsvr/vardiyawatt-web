@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label":"VardiyaWatt: Geliştir","type":"npm","script":"dev","isBackground":true,"problemMatcher":[]},
+    {"label":"VardiyaWatt: Test","type":"npm","script":"test","problemMatcher":[]},
+    {"label":"VardiyaWatt: Derle","type":"npm","script":"build","group":"build","problemMatcher":[]}
+  ]
+}
